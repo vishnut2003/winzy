@@ -119,6 +119,12 @@
     margin-bottom: 30px;
 }
 
+@media (max-width: 500px) {
+    .hero-section-headings {
+        text-align: center;
+    }
+}
+
 .header-action-button-hero-section {
     padding: 20px 35px;
     background: var(--home-primary);
