@@ -133,6 +133,7 @@
     gap: 5px;
     justify-content: center;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .header-action-button-hero-section > div {
@@ -156,6 +157,13 @@
     justify-content: start;
     gap: 10px;
     margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+    .pricing-cols {
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 @-webkit-keyframes gra {
@@ -191,6 +199,13 @@
     animation: gra 5s ease infinite;
 }
 
+@media (max-width: 500px) {
+    .pricing-cols > .col-1 {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+}
+
 .pricing-cols > .col-1 > span {
     display: block;
     position: absolute;
@@ -218,6 +233,13 @@
     -webkit-animation: gra 5s ease infinite;
     -moz-animation: gra 5s ease infinite;
     animation: gra 5s ease infinite;
+}
+
+@media (max-width: 500px) {
+    .pricing-cols > .col-2 {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
 }
 
 .pricing-cols > .col-2 > span {
