@@ -139,7 +139,7 @@
     gap: 5px;
     justify-content: center;
     width: 100%;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 .header-action-button-hero-section > div {
